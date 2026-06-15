@@ -1,0 +1,9 @@
+.country_container {
+    width: 80%;
+    margin: auto;
+    display: flex;
+    gap: 60px;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+}

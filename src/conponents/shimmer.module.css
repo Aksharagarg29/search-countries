@@ -1,0 +1,23 @@
+.container {
+    width: 80%;
+    margin: auto;
+    display: flex;
+    gap: 60px;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.shimmer_card {
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(128, 128, 128, 0.507);
+    text-decoration: none;
+    margin: 15px 0;
+    width: 200px;
+    height: 270px;
+    border-radius: 5px;
+    box-shadow: 1px 1px 5px rgba(128, 128, 128, 0.144);
+    overflow: hidden;
+    transition: transform 0.2s ease-in-out;
+}

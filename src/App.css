@@ -1,0 +1,34 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.hanken-grotesk- {
+    font-family: "Hanken Grotesk", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+}
+body {
+    --backgroudColor: white;
+    --text-color: black;
+    --elements-color: white;
+    background-color: var(--backgroudColor);
+    color: var(--textColor);
+    /* min-height: 100vh; */
+}
+section{
+    background-color: var(--background-color);
+    color: var(--text-color);
+    min-height: calc(100vh - 80px);
+}
+header{
+    background-color: var(--background-color);
+    color: var(--text-color);
+    background-color: var(--elements-color);
+}
+section.dark , header.dark{
+    --background-color: hsl(207, 26%, 17%); 
+    --text-color: white;
+    --elements-color: #2b3945;
+}
